@@ -1,0 +1,171 @@
+body{
+    height: 3000px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+    text-align: center;
+    background-image: url('https://get.wallhere.com/photo/Milky-Way-stars-mountains-night-Germany-Bavaria-sky-1070802.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.9;
+}
+.header{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    position: relative;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+.header-logo h1{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    color: white;
+    font-family: 'Sacramento';
+    font-size: 400%;
+}
+
+.header img{
+    top: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%
+}
+
+.container {
+    color: #ffffff;
+    display: block;
+    margin: 4px;
+    overflow: hidden;
+    width: 100%;
+    background-color: rgba(255, 255, 255, .3);
+}
+.nav{
+    color: #ffffff;
+}
+.nav a{
+  color: white;
+}
+
+ul {
+    margin: -5px;
+    padding: 50px 30%;
+}
+li {
+    display: inline-block;
+    list-style-type: none;
+    -webkit-transition: all 0.2s;
+            transition: all 0.2s;
+}
+li a{
+  color: black;
+}
+a {
+    color: #ffffff;
+    display: block;
+    line-height: 56px;
+    padding: 0 10px;
+    text-decoration: none;
+}
+li:hover {
+    background-color: rgb(80, 80, 80);
+}
+li:hover a {
+    color: rgb( 255, 255, 255 );
+}
+.empty{
+    height: 300px;
+}
+.main{
+    color: #ffffff;
+}
+
+#link{
+    color : #ffffff;
+}
+
+
+#calendar{
+    height: 25%;
+    width: 60%;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+@media screen and (max-width: 600px){
+  #calendar{
+    height: 350px;
+  }
+}
+
+img{
+  width: 60%;
+}
+
+#page_top{
+  width: 90px;
+  height: 90px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  opacity: 0.6;
+}
+#page_top a{
+  position: relative;
+  display: block;
+  width: 90px;
+  height: 90px;
+  text-decoration: none;
+}
+#page_top a::before{
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f102';
+  font-size: 25px;
+  color: #3f98ef;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: -40px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+}
+#page_top a::after{
+  content: 'PAGE TOP';
+  font-size: 13px;
+  color: #fff;
+  position: absolute;
+  top: 45px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+  color: #3f98ef;
+}
+
+.fc-today .fc-day-number{
+  color: black !important;
+  font-size: 25px;
+}
+.fc-today{
+  background-color: #d7d7d7;
+  opacity: .7;
+}
+.fc-past .fc-day-number{
+  font-size: 20px;
+}
+
+.fc-future .fc-day-number{
+  font-size: 20px;
+}
+
+.fc-unthemed .fc-other-month{
+  background-color: #d7d7d7;
+  opacity: .3;
+}
