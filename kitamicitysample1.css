@@ -91,7 +91,7 @@ li:hover a {
 #calendar{
     height: 25%;
     width: 60%;
-    padding-left: 40px;
+    padding-left: 20%;
     padding-top: 40px;
 }
 @media screen and (max-width: 600px){
